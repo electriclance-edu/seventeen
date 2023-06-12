@@ -1,0 +1,14 @@
+:root {
+    --bg-color:white;
+    --card-bg:rgb(242, 235, 250);
+    --card-bg-accent:rgb(225, 207, 245);
+    --shadow-color-light:rgba(43, 0, 51, 0.1);
+    --shadow-color-heavy:rgba(43, 0, 51, 0.2);
+    --txt-color:black;
+    --txt-color-sub:#7063a1;
+    --txt-color-subber:#9a91c0;
+    --txt-accent-color-1:#0b7066;
+    --accent-color-1:#ddb1ff;
+    --accent-color-2:#ffb2d2;
+    --txt-anti-accent:rgb(55, 48, 85);
+}

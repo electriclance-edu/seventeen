@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>seventeen</title>
+        <link rel="stylesheet" href="style.css">
+        <link id="themeSheet" rel="stylesheet" href="themes/dev.css">
+    </head>
+    <body>
+        <script src="data/data-memories.js"></script>
+        <script src="main.js" defer></script>
+        <div class="Themes debug protectFromVanish">
+            <div class="flex-break"></div>
+            <div class="theme lavender" onclick="changeTheme('lavender')"></div>
+            <div class="theme dev" onclick="changeTheme('dev')"></div>
+            <div class="theme retro" onclick="changeTheme('retro')"></div>
+            <div class="theme burger" onclick="changeTheme('burger')"></div>
+        </div>
+        <div class="CardParent debug">
+            <div class="center-abs deck template_labongus">
+                <p class="txt-header">deck</p>
+                <p class="txt-margin-top txt-color-accent-2">currently i do nothing but in the future you'll be able to drag cards out of me</p>
+                <p class="txt-margin-top">try dragging the other cards around!</p>
+                <p class="txt-margin-top">or check out the theme buttons at the bottom-left</p>
+                <p class="txt-margin-top">these are all you can do as of the moment</p>
+            </div>
+            <div id="dragTest" class="card flexi template_labongus item" style="--color:var(--accent-color-2)">
+                <div class="card-tags">
+                    <p class="txt-color-accent-2"><span class="txt-header-small">ID:</span>potato</p>
+                    <span class="txt-header-small">ICON:</span>
+                    <p class="txt-color-accent-2 txt-emoji">🌙</p>
+                    <p class="txt-color-accent-2"><span class="txt-header-small">TIER:</span> RAT</p>
+                </div>
+                <div class="card-content">
+                    <p class="txt-header">Stargrapes</p>
+                    <div class="template_labongus-stat-parent">
+                        <p class="template_labongus-stat food"><span class="txt-emoji">🍖</span>1 FOOD</p>
+                    </div>
+                    <p class="txt-margin-top template_labongus-lore">The people of the North know how to grow their grapes.</p>
+                    <p class="txt-margin-top template_labongus-desc">
+                        <span></span>
+                        <span class="txt-color-subber">WOOD</span>
+                        <span class="txt-color-subber">FOODSTUFF</span>
+                        <span class="txt-color-sub template_labongus-emphasize">★☆☆☆☆</span>
+                    </p>
+                    <p class="txt-color-subber template_labongus-origin">THE GREAT VINEYARD</p>
+                </div>
+            </div>
+            <div id="dragTest3" class="card flexi template_labongus item" style="--color:var(--accent-color-1);--drag-top:350px;">
+                <div class="card-tags">
+                    <span class="txt-header-small">ID:</span>
+                    <p class="txt-color-accent-2">paper</p>
+                    <span class="txt-header-small">ICON:</span>
+                    <p class="txt-color-accent-2 txt-emoji">🌙</p>
+                    <span class="txt-header-small">TIER:</span>
+                    <p class="txt-color-accent-2">GOLD</p>
+                    <span class="txt-header-small">ITEMTYPE:</span>
+                    <p class="txt-color-accent-2">SPELL</p>
+                </div>
+                <div class="card-content">
+                    <p class="txt-header">🌙 Starcall (Lupus)</p>
+                    <div class="template_labongus-stat-parent">
+                    </div>
+                    <p class="txt-margin-top txt-color-sub">
+                        <span class="txt-color-subber template_labongus-effect">On cast</span> 
+                        Summons an immortal <span class="txt-parent-color template_labongus-txt-entityName">Starwolf</span> 
+                        that disappears by night.
+                    </p>
+                    <p class="txt-margin-top template_labongus-lore">A historian would tell you the constellation Lupus only started appearing in written record a thousand years ago. The tribes of the North would tell you that their loyal guardian watches them even after her death, ready to pounce with a simple whistle to the heavens above.</p>
+                    <p class="txt-margin-top template_labongus-desc">
+                        <span></span>
+                        <span class="txt-color-subber">GOLD</span>
+                        <span class="txt-color-subber">SUMMONING SPELL</span>
+                        <span class="txt-color-sub template_labongus-emphasize template_labongus-stars">★★★★☆</span>
+                    </p>
+                    <p class="txt-color-subber template_labongus-origin">FALLEN CONSTELLATION</p>
+                </div>
+            </div>
+            <div id="dragTest2" class="card flexi template_labongus item" style="--color:var(--accent-color-1);--drag-top:250px;--drag-left:250px">
+                <div class="card-tags">
+                    <span class="txt-header-small">ID:</span>
+                    <p class="txt-color-accent-2">paper</p>
+                    <span class="txt-header-small">ICON:</span>
+                    <p class="txt-color-accent-2 txt-emoji">⭐</p>
+                    <span class="txt-header-small">TIER:</span>
+                    <p class="txt-color-accent-2">WOOD,STONE, GOLD,IRON,DIA</p>
+                    <span class="txt-header-small">ITEMTYPE:</span>
+                    <p class="txt-color-accent-2">FOODSTUFF, WEAPON, SPELL</p>
+                </div>
+                <div class="card-content">
+                    <p class="txt-header">MONARCH'S SPELL</p>
+                    <div class="template_labongus-stat-parent">
+                        <p class="template_labongus-stat food"><span class="txt-emoji">🍖</span>3 FOOD</p>
+                        <p class="template_labongus-stat attack"><span class="txt-emoji">🗡</span>5 ATK</p>
+                        <p class="template_labongus-stat attack"><span class="txt-emoji">🏹</span>3 R.ATK</p>
+                        <p class="template_labongus-stat def"><span class="txt-emoji">🛡</span>1 DEF</p>
+                        <p class="template_labongus-stat hp"><span class="txt-emoji">❤</span>10 HP</p>
+                        <p class="template_labongus-stat special"><span class="txt-emoji">⭐</span>30% RIZZ</p>
+                    </div>
+                    <p class="txt-margin-top txt-color-sub"><span class="txt-color-subber template_labongus-effect">On use</span> Summons 9 gay men and one bi woman</p>
+                    <p class="txt-margin-top template_labongus-lore">Appear weak when you are strong, and strong when you are weak.</p>
+                    <p class="txt-margin-top template_labongus-desc">
+                        <span></span>
+                        <span class="txt-color-subber">TIER</span>
+                        <span class="txt-color-subber">ITEMTYPE</span>
+                        <span class="txt-color-sub template_labongus-emphasize template_labongus-stars">★★★☆☆</span>
+                    </p>
+                    <p class="txt-color-subber template_labongus-origin">a place</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
